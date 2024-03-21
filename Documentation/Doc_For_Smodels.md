@@ -273,7 +273,7 @@ lse)`: 当设置为 True 时会在运行前检查输入文件所有可能存在�
 定义 BSM 模型粒子信息。
 
 - `model`: 指向定义模型粒子信息的 Python 文件，例如 `model=share.models.mssm` 指的是 `smodels/share/models/mssm.py` 文件。
-- `promptWidth`: 以 GeV 为单位的宽度值，超过此数值的衰变宽度被认为是提供提示的，`v2.2` 版本后默认值为 `1e-11`，`v2.0` 和 `v2.1` 的默认值为 `1e-8`。
+- `promptWidth`: 以 GeV 为单位的宽度值，超过此数值的衰变宽度被认为是瞬时的，`v2.2` 版本后默认值为 `1e-11`，`v2.0` 和 `v2.1` 的默认值为 `1e-8`。
 - `stableWidth`: 以 GeV 为单位的宽度值，衰变宽度低于此数值的粒子被认为是稳定粒子，默认值为 `1e-25`。
 
 ##### BSM model 信息

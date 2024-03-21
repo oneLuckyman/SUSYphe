@@ -335,3 +335,20 @@ autoreconf
 ```bash
 make -j4
 ```
+
+完成安装后可执行测试以确认是否正确安装。进入 CheckMATE 主目录下的 `./bin` 文件夹内，执行
+
+```bash
+./CheckMATE testparam_with_analysis.dat
+```
+
+提问是否确认时输入 `y`，得到以下结果为测试成功（Analysis 项或许会有所不同）。
+
+```bash
+Evaluating Results
+Test: Calculation of r = signal/(95%CL limit on signal)
+Result: Allowed
+Result for r: 0
+Analysis: cms_sus_16_048
+SR: SR2_stop_3high_pt_1
+```
